@@ -1,0 +1,111 @@
+
+body {
+    background-image: url("MHA.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  
+  main {
+    max-width: 610px;
+    margin: auto;
+  }
+  
+  h1, h5 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(144, 255, 246);
+  }
+  
+  .win {
+    color: white;
+    background-color: green;
+  }
+  
+  .loss {
+    color: #FFFDD0;
+    background-color:tan;
+  }
+  
+  #word {
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 24pt;
+    color: red;
+    font-weight: bold;
+    font-family: 'Adventure Time Logo', sans-serif;
+  }
+  
+  #guesses {
+    text-align: center;
+    font-size: 16pt;
+    color:rgb(19, 174, 226);
+    font-weight: bold;
+    font-family: 'Adventure Time Logo', sans-serif;
+  }
+  
+  .guess {
+    padding: 10px;
+    background-color: rgb(104, 4, 4);
+    display: inline-block;
+    border: 2px solid #FFFDD0;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (min-device-width: 375px ) and (max-device-width: 667px) {
+      #guesses {
+      text-align: center;
+      font-size: 24pt;
+      color:rgb(19, 174, 226);
+      font-weight: bold;
+      font-family:  'Adventure Time Logo', sans-serif;
+    }
+  
+    .guess {
+      padding: 30px;
+      display: inline-block;
+      border: 2px solid red
+      ;
+      border-radius: 10px;
+      margin: 10px;
+      cursor: pointer;
+    }
+  }
+  
+  #guessBox {
+      height: 60px;
+      border-radius: 10px;
+      padding-top: 5px;
+      font-size: 18pt;
+      width: 200px;
+      padding-left: 10px;
+  }
+  
+  /* Buttons */
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 23px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:rgb(19, 174, 226);
+    background-color: tan;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #FFFDD0;
+    
+    
+  }
+  
+  .button:hover {background-color: rgb(122, 77, 8)}
+  
+  .button:active {
+    background-color: tan;
+    box-shadow: 0 5px #FFFDD0;
+    transform: translateY(4px);
+  }

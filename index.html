@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title>Movie Hangman</title>
+ <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+ <main>
+  <h1>Movie Hangman</h1>
+  <div id="gallows">
+   <img style="padding-left: 70px" id="hangmanImage" src="imgfolder/hangman0.jpg">
+  </div>
+  <div id="word"></div>
+  <br>
+  <div id="controls">
+   <input type="text" id="guessBox">
+   <button id="guessWordButton" class="button" onclick="guessWord( game )">Guess Word</button>
+   <button id="newGameButton" class="button" onclick="newGame();">New Game</button>
+   <br>
+   <br>
+  </div>
+  <br>
+  <div id="guesses"></div>
+ </main>
+ <script src="hang.js"></script>
+</body>
+
+</html>
